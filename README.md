@@ -82,7 +82,7 @@ Training and Testing for Deraining:
 
 Currently, you can run run_DFTLW.py or run_DFTLX.py in [Link](https://github.com/XiaoXiao-Woo/derain/tree/main/models/compared_trans/DFTL).
 
-Note: Our project is based on MMCV, but you needn't to install it. More importantly, it can be more easy to introduce more methods.
+Note: Our project is based on MMCV, but you needn't to install it and master MMCV. More importantly, it can be more easy to introduce more methods. you 
 
 ## Benchmark 
 We provide simple pipelines to train/test/inference models for a quick start.
