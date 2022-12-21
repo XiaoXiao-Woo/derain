@@ -78,11 +78,11 @@ Training and Testing for Deraining:
   
 	__cfg.eval__ = True or __cfg.workflow__ = [('val', 1)]
 
-**Run our DFTL**
+**Let's start to run our DFTL.**
 
 Currently, you can run run_DFTLW.py or run_DFTLX.py in [Link](https://github.com/XiaoXiao-Woo/derain/tree/main/models/compared_trans/DFTL).
 
-Note: Our project is based on MMCV, but you needn't to install it and master MMCV. More importantly, it can be more easy to introduce more methods. you 
+**Note: [Ready to use] Our project is based on MMCV, but you needn't to install it and master MMCV. More importantly, it can be more easy to introduce more methods.**
 
 ## Benchmark 
 We provide simple pipelines to train/test/inference models for a quick start.
