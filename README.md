@@ -84,6 +84,31 @@ Currently, you can run run_DFTLW.py or run_DFTLX.py in [Link](https://github.com
 
 Note: Our project is based on MMCV, but you needn't to install it.
 
+## Benchmark 
+We provide simple pipelines to train/test/inference models for a quick start.
+
+<details open>
+<summary>Derain model zoo:
+</summary>
+
+* GMM ()
+* DSC ()
+* Clear (CVPR'2017)
+* DDN (CVPR'2017)
+* DID ()
+* RESCAN (CVPR' 2017)
+* NLEDN (CVPR' 2018)
+* PReNet (CVPR' 2018)
+* FBL (AAAI'2019)
+* RCDNet (CVPR' 2020)
+* DualGCN (AAAI' 2021)
+* IPT (CVPR' 2021)
+* Uformer (CVPR' 2022)
+* Restormer (CVPR' 2022)
+
+</details>
+
+
 ## Citation
 If it is helpful for you, please kindly cite our paper:
 ```
