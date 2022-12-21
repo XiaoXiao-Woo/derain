@@ -74,7 +74,7 @@ Training and Testing for Deraining:
 	
 * A test example:
 
-	run_derain_test.py
+	> run_derain_test.py
   
 	__cfg.eval__ = True or __cfg.workflow__ = [('val', 1)]
 
