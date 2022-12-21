@@ -135,3 +135,6 @@ Should you have any question, please contact wxwsx1997@gmail.com;
 ## Our Related Works
 - "PanCollection" for Remote Sensing Pansharpening, 中国图象图形学报 2022. [Paper](https://liangjiandeng.github.io/papers/2022/deng-jig2022.pdf) | [Code](https://github.com/XiaoXiao-Woo/PanCollection)
 - Dynamic Cross Feature Fusion for Remote Sensing Pansharpening, ICCV 2021. [Paper](https://liangjiandeng.github.io/papers/2021/dfcnet2021.pdf) | [Code](https://github.com/XiaoXiao-Woo/UDL)
+
+## License & Copyright
+This project is open sourced under GNU General Public License v3.0.
