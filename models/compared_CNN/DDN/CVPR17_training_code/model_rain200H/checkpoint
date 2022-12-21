@@ -1,0 +1,6 @@
+model_checkpoint_path: "model-epoch-210000"
+all_model_checkpoint_paths: "model-epoch-209600"
+all_model_checkpoint_paths: "model-epoch-209700"
+all_model_checkpoint_paths: "model-epoch-209800"
+all_model_checkpoint_paths: "model-epoch-209900"
+all_model_checkpoint_paths: "model-epoch-210000"

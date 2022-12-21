@@ -1,0 +1,1 @@
+python -m launch --nproc_per_node 8 --master_port  24567 swinir_dr_main_100H_la.py

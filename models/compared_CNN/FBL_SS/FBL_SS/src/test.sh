@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --data_test RainPracticalTest --data_range 1-300/1-300 --save Real_results --scale 2 --reset --save_results --pre_train ../experiment/RFBL_scale_free_color/model/model_150.pt --test_only

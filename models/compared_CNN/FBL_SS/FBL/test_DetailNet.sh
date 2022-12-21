@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python main.py --dir_data /data/yangwenhan/Detail-training/ --data_train RainDetail --data_test RainDetailTest --data_range 1-12000/1-10000 --scale 2 --model RFBLL --patch_size 64 --save RFBL_Detail_test --test_only --save_results  --pre_train ../experiment/RFBLL_Detail/model/model_best.pt
