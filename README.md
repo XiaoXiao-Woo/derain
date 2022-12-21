@@ -91,19 +91,19 @@ We provide simple pipelines to train/test/inference models for a quick start.
 <summary>Derain model zoo:
 </summary>
 
-* GMM ()
-* DSC ()
-* Clear (CVPR'2017)
+* DSC (ICCV'2015)
+* GMM (CVPR'2016)
+* Clear (TIP'2017)
 * DDN (CVPR'2017)
-* RESCAN (CVPR' 2017)
-* NLEDN (CVPR' 2018)
-* PReNet (CVPR' 2018)
-* FBL (AAAI'2019)
-* RCDNet (CVPR' 2020)
-* DualGCN (AAAI' 2021)
-* IPT (CVPR' 2021)
-* Uformer (CVPR' 2022)
-* Restormer (CVPR' 2022)
+* RESCAN (ECCV'2018)
+* NLEDN (ACMMM'2018)
+* PReNet (CVPR'2019)
+* FBL (AAAI'2020)
+* RCDNet (CVPR'2020)
+* DualGCN (AAAI'2021)
+* IPT (CVPR'2021)
+* Uformer (CVPR'2022)
+* Restormer (CVPR'2022)
 
 </details>
 
