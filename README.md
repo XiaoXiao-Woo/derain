@@ -95,7 +95,6 @@ We provide simple pipelines to train/test/inference models for a quick start.
 * DSC ()
 * Clear (CVPR'2017)
 * DDN (CVPR'2017)
-* DID ()
 * RESCAN (CVPR' 2017)
 * NLEDN (CVPR' 2018)
 * PReNet (CVPR' 2018)
