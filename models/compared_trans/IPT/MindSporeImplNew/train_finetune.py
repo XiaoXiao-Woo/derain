@@ -124,8 +124,7 @@ def train_net(distribute, imagenet):
     #     print(m)
     # net_m = None
     print("Init net weights successfully")
-    args.pth_path = './experimentmodel_35.ckpt'
-    # args.pth_path = './cache/results/edsr_baseline_x2/model_15.ckpt'
+    args.pth_path = '.ckpt'
     start_epoch = 0
     if os.path.isfile(args.pth_path):
         start_epoch = int(args.pth_path.split('/')[-1].split('_')[1].replace('.ckpt', '')) + 1
