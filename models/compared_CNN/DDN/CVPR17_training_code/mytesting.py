@@ -23,8 +23,6 @@ os.environ['CUDA_VISIBLE_DEVICES'] = "1"
 tf.reset_default_graph()
 
 model_path = './model_DDN/'
-pre_trained_model_path = './model_rain200H'
-# pre_trained_model_path = ' D:/ProjectSets/NDA/Attention/UDL/UDL/results/derain/DID/DDN/Test/model_2022-01-06-16-13/350'
 # img_path = 'D:/Datasets/derain/DDN/Rain1400/rainy_image/'  # the path of testing images
 results_path = './TestData/results/real/'  # the path of de-rained images
 
