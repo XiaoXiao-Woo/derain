@@ -668,13 +668,3 @@ if __name__ == "__main__":
     print(psnr)
     # plt.imshow(y[0].byte().permute(1, 2, 0).cpu().detach().numpy())
     plt.show()
-'''
-D:\anaconda\envs\mmlab\python.exe D:/ProjectSets/NDA/Attention/IPT/torchImpl/test_ipt.py
-(321, 962, 3)
-torch.Size([1, 3, 321, 481])
-Making model...
-46.80181219109498
-
-Process finished with exit code 0
-
-'''
