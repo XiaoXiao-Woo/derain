@@ -1,1 +1,0 @@
-python -m ipt_launch --nproc_per_node 4 --master_port 23478 ipt_main.py
