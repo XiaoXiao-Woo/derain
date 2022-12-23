@@ -2458,25 +2458,4 @@ if __name__ == "__main__":
                              token_projection='linear', token_mlp='leff',
                              downsample=Downsample, upsample=Upsample, se_layer=False).cuda()
     print(model_restoration)
-    # arch = LeWinformer    
-    # depth = 20
-    # model_restoration = arch(embed_dim=16,depth=depth,
-    #              window_size=8, mlp_ratio=4., qkv_bias=True,
-    #              token_projection='linear', token_mlp='leff',se_layer=False)         
-    # from ptflops import get_model_complexity_info
-    # macs, params = get_model_complexity_info(model_restoration, (3, input_size, input_size), as_strings=True,
-    #                                             print_per_layer_stat=True, verbose=True)
-    # print('{:<30}  {:<8}'.format('Computational complexity: ', macs))
-    # print('{:<30}  {:<8}'.format('Number of parameters: ', params))
-    # print("number of GFLOPs: %.2f G"%(model_restoration.flops(input_size,input_size) / 1e9))
-    print("number of GFLOPs: %.2f G" % (model_restoration.flops() / 1e9))
-    '''
-    ====================================================================================================================================================================================================
-    Total params: 153,863,599
-    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Total memory: 666.43MB
-    Total MAdd: 987.11MMAdd
-    Total Flops: 9.56GFlops
-    Total MemR+W: 335.86MB
-    '''
     stat(model_restoration, [[1, 3, input_size, input_size]])
