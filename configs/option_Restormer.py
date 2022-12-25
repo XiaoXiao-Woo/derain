@@ -64,7 +64,7 @@ class parser_args(TaskDispatcher, name='Restormer'):
         args.experimental_desc = "Test"
         cfg.reg = False
         cfg.scale = 1
-        cfg.workflow = [('train', 10)]
+        cfg.workflow = [('train', 1)]
         cfg.merge_args2cfg(args)
         print(cfg.pretty_text)
 
