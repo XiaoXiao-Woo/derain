@@ -67,7 +67,7 @@ class parser_args(TaskDispatcher, name='DFTLX'):
         cfg.patch_size = (64, 64)
         cfg.adjust_size_mode = "patch"
         cfg.merge_args2cfg(args)
-        cfg.workflow = [('val', 10), ('train', 1)]
+        cfg.workflow = [('train', 1)]
         cfg.reset_lr = True
 
         print(cfg.pretty_text)
