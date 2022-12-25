@@ -63,7 +63,7 @@ class parser_args(TaskDispatcher, name='Restormer'):
         args.start_epoch = args.best_epoch = 1
         args.experimental_desc = "Test"
         cfg.reg = False
-        cfg.scale = 1
+        cfg.scale = [1]
         cfg.workflow = [('train', 1)]
         cfg.merge_args2cfg(args)
         print(cfg.pretty_text)
