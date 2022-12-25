@@ -75,7 +75,9 @@ Training and Testing for Deraining:
 * A test example:
 
 	> run_derain_test.py
+	
   	__cfg.dataset__ = {'val': 'Rain200H'}
+	
 	__cfg.eval__ = True or __cfg.workflow__ = [('val', 1)]
 
 **Let's start to run our DFTL.**
